@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apple</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="data:image/png;base64,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" type="image/x-icon"/>
+ 
+</head>
+<body style="background-color: black;">  
+ 
+  <div class="main" align="center">
+    <div class="nav">
+  <img  class="logo" src="OIP.jpeg" type="image/x-icon"/></a>&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="">Store</a>&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="">Mac</a>&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="">ipad</a>&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="">iphone</a>&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="">Watch</a>&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="">Vision</a>&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="">AirPods</a>&nbsp;&nbsp;&nbsp;&nbsp; 
+    <a href="">Tv & Home</a>&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="">Entertainment</a>&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="">Accessories</a>&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="">Support</a>&nbsp;&nbsp;&nbsp;&nbsp;
+    <button>search</button></div>
+</div>
+<div class="a">
+<p style=color:white; align="center">Buy Mac or iPad with education savings. And last chance to get a gift card up to $150. Offer ends 9/30/2024 &nbsp; <a href="">Shop</a></p>
+</div>
+<div class="b">
+    
+    <input type="button" id="button1" value="Learn More">&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="button" id="button2" value="buy">
+</div>
+<div class="c">
+    <input type="button" id="button3" value="Learn More">&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="button" id="button4" value="buy">
+</div>
+<div class="watch">
+    
+    <input type="button" id="button5" value="Learn More">&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="button" id="button6" value="buy">
+    
+</div>
+<div class="d">
+    
+    <div class="watch1">
+        <input type="button" id="button7" value="Learn More">&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="button" id="button8" value="buy">
+    </div>
+    <div class="airpods">
+        <input type="button" id="button9" value="Learn More">&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="button" id="button10" value="buy">
+    </div>
+</div>
+<div class="e">
+    <div class="am">
+        <input type="button" id="button11" value="Learn More">&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="button" id="button12" value="buy">
+    </div>
+    <div class="mac">
+        <input type="button" id="button13" value="Learn More">&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="button" id="button14" value="buy">
+    </div>
+    
+</div>
+<div class="f">
+    <div class="ipad">
+        <input type="button" id="button15" value="Learn More">&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="button" id="button16" value="buy">
+    </div>
+    <div class="trade">
+        <input type="button" id="button17" value="Get your estimate">
+    </div>
+    
+</div>
+<div class="g">
+    <input type="button" id="button18" value="Stream now">
+</div>
+<footer>
+    <div class="footer-content">
+      <nav class="footer-menu">
+        <div class="footer-col">
+          <div class="item">
+            <input type="checkbox" id="products">
+            <div class="col-section">
+              <label for="products">
+                <h3>Shop and learn</h3>
+              </label>
+              <ul class="product-list">
+                <li><a href="#">Mac</a></li>
+                <li><a href="#">iPad</a></li>
+                <li><a href="#">iPhone</a></li>
+                <li><a href="#">Watch</a></li>
+                <li><a href="#">TV</a></li>
+                <li><a href="#">Music</a></li>
+                <li><a href="#">iTunes</a></li>
+                <li><a href="#">HomePod</a></li>
+                <li><a href="#">iPod touch</a></li>
+                <li><a href="#">Accessories</a></li>
+                <li><a href="#">Gift Cards</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+  
+        <div class="footer-col">
+          <div class="item">
+            <input type="checkbox" id="store">
+            <div class="col-section">
+              <label for="store">
+                <h3>Apple Store</h3>
+              </label>
+              <ul class="product-list">
+                <li><a href="#">Find a Store</a></li>
+                <li><a href="#">Genius Bar</a></li>
+                <li><a href="#">Today at Apple</a></li>
+                <li><a href="#">Apple Camp</a></li>
+                <li><a href="#">Field Trip</a></li>
+                <li><a href="#">Apple Store App</a></li>
+                <li><a href="#">Refurbished and Clearance</a></li>
+                <li><a href="#">Financing</a></li>
+                <li><a href="#">Reuse and Recycling</a></li>
+                <li><a href="#">Order Status</a></li>
+                <li><a href="#">Shopping Help</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-col">
+          <div class="item">
+            <input type="checkbox" id="education">
+            <div class="col-section">
+              <label for="education">
+                <h3>For Education</h3>
+              </label>
+              <ul class="product-list">
+                <li><a href="#">Apple and Education</a></li>
+                <li><a href="#">Shop for College</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="item item-padding-top">
+            <input type="checkbox" id="business">
+            <div class="col-section">
+              <label for="business">
+                <h3>For Business</h3>
+              </label>
+              <ul class="product-list">
+                <li><a href="#">Apple and Business</a></li>
+                <li><a href="#">Shop for Business</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+  
+        <div class="footer-col">
+          <div class="item">
+            <input type="checkbox" id="acccount">
+            <div class="col-section">
+              <label for="acccount">
+                <h3>Account</h3>
+              </label>
+              <ul class="product-list">
+                <li><a href="#">Manage Your Apple ID</a></li>
+                <li><a href="#">Apple Store Account</a></li>
+                <li><a href="#">iCloud.com</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="item item-padding-top">
+            <input type="checkbox" id="values">
+            <div class="col-section">
+              <label for="values">
+                <h3>Apple Values</h3>
+              </label>
+              <ul class="product-list">
+                <li><a href="#">Accessibility</a></li>
+                <li><a href="#">Education</a></li>
+                <li><a href="#">Environment</a></li>
+                <li><a href="#">Inclusion and Diversity</a></li>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Supplier Responsibility</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+  
+        <div class="footer-col">
+          <div class="item">
+            <input type="checkbox" id="about">
+            <div class="col-section">
+              <label for="about">
+                <h3>About Apple</h3>
+              </label>
+              <ul class="product-list">
+                <li><a href="#">Newsroom</a></li>
+                <li><a href="#">Apple Leadership</a></li>
+                <li><a href="#">Job Opportunities</a></li>
+                <li><a href="#">Investors</a></li>
+                <li><a href="#">Events</a></li>
+                <li><a href="#">Contact Apple</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <section class="footer-base">
+        <div class="footer-more-ways" x-ms-format-detection="none">
+          More ways to shop: Visit an <a href="/retail/">Apple Store</a>, <span class="nowrap">call 1-800-MY-APPLE, or <a href="#">find a reseller</a></span>.
+        </div>
+        <div class="footer-legal">
+          <div class="footer-legal-copyright">Copyright © 2018 Apple Inc. All rights reserved.</div>
+          <div class="footer-legal-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Use</a>
+            <a href="#">Sales and Refunds</a>
+            <a href="#">Legal</a>
+            <a href="#">Site Map</a>
+          </div>
+        </div>
+      </section>
+    </div>
+  </footer>
+<hr>
+
+
+</body>
+</html>
